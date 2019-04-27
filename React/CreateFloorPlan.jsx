@@ -11,6 +11,8 @@ import { toast } from "react-toastify";
 import PropTypes from "prop-types";
 import "./FloorPlan.css";
 
+//This page was worked on in coordination with Claire Hong @ClaireHong11
+
 const _logger = logger.extend("CreateFloorPlan");
 
 class CreateFloorPlan extends React.PureComponent {
