@@ -1,7 +1,7 @@
 import React from "react";
 import "./Advertisers.css";
 
-function ABCPermitCard(props) {
+function AdvertiserCard(props) {
   return (
     <div className="col-lg-4">
       <div className="card mb-3 border-primary">
@@ -43,4 +43,4 @@ function ABCPermitCard(props) {
   );
 }
 
-export default React.memo(ABCPermitCard);
+export default React.memo(AdvertiserCard);
