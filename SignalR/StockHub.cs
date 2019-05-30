@@ -21,7 +21,7 @@ namespace Hubs
         public Task Stocks()
         {
             GroupStock stocks = _crawling.Stocks();
-			aTimer.Start();
+	    aTimer.Start();
             return Clients.All.SendAsync("ReceiveStocks", stocks);
         }
 
@@ -55,7 +55,7 @@ namespace Hubs
 
         public void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
-			aTimer.Stop();
+	    aTimer.Stop();
             Stocks();
         }
     }
